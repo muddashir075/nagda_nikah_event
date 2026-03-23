@@ -1,0 +1,3 @@
+# GitHub Pages config — serves from /frontend folder via root redirect
+include:
+  - frontend
