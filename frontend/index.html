@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>सामुहिक निकाह सम्मेलन - नागदा</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">या २ब ग्रुप</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"      data-i18n="nav-home">होम</a></li>
+        <li><a href="#about"     data-i18n="nav-about">परिचय</a></li>
+        <li><a href="#organizers" data-i18n="nav-organizers">आयोजक</a></li>
+        <li><a href="#guests"    data-i18n="nav-speakers">अतिथि</a></li>
+        <li><a href="#patrons"   data-i18n="nav-schedule">सरपरस्त</a></li>
+        <li><a href="#contact"   data-i18n="nav-contact">संपर्क</a></li>
+      </ul>
+      <a href="#register" class="btn btn-primary" data-i18n="nav-register">अभी पंजीकरण करें</a>
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language" title="Switch to English">
+        <i class="fas fa-language"></i>
+        <span id="langLabel">EN</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-tag" data-i18n="hero-tag">या २ब ग्रुप नागदा की जानिब से</p>
+      <h1 data-i18n="hero-h1">सामुहिक निकाह सम्मेलन</h1>
+      <p class="hero-sub" data-i18n="hero-sub">सदर मुस्लिम पंचायत नागदा के तत्वावधान में</p>
+      <div class="event-meta">
+        <div class="meta-item">
+          <i class="fas fa-calendar-alt"></i>
+          <span data-i18n="meta-date">२६ अप्रैल २०२६</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-clock"></i>
+          <span data-i18n="meta-day">रविवार (इतवार)</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span data-i18n="meta-venue">बाबा की बावड़ी, रसुलपुर रोड, नागदा, देवास</span>
+        </div>
+      </div>
+      <div class="hero-btns">
+        <a href="#about"    class="btn btn-outline"  data-i18n="hero-learn">और जानें</a>
+        <a href="#register" class="btn btn-primary"  data-i18n="hero-register">अभी पंजीकरण करें</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT POSTER -->
+  <section class="poster-section" id="about">
+    <div class="container poster-wrap">
+      <div class="poster-img-col">
+        <img src="assets/images/375a23d9-b6e6-4f1c-a016-b50bae73a18f.jpg"
+             alt="सामुहिक निकाह सम्मेलन पोस्टर"
+             class="event-poster" />
+      </div>
+      <div class="poster-text-col">
+        <h2 data-i18n="about-h2">कार्यक्रम के बारे में</h2>
+        <p class="section-sub" style="text-align:left;" data-i18n="about-sub">एक पवित्र और यादगार आयोजन</p>
+        <p class="about-desc" data-i18n="about-desc">
+          या २ब ग्रुप नागदा और सदर मुस्लिम पंचायत नागदा के संयुक्त तत्वावधान में
+          सामुहिक निकाह सम्मेलन का आयोजन किया जा रहा है। यह आयोजन समाज के सभी
+          वर्गों के लिए एक पवित्र अवसर है जहाँ निःशुल्क सामुहिक निकाह संपन्न कराए जाएंगे।
+          तारीख २६ अप्रैल २०२६, रविवार को बाबा की बावड़ी, रसुलपुर रोड, नागदा, देवास में।
+        </p>
+        <div class="cards" style="margin-top:1.5rem;">
+          <div class="card">
+            <div class="card-icon"><i class="fas fa-heart"></i></div>
+            <h3 data-i18n="card1-h3">निःशुल्क निकाह</h3>
+            <p  data-i18n="card1-p">सामुहिक निकाह सम्मेलन में निःशुल्क निकाह संपन्न कराए जाएंगे।</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fas fa-users"></i></div>
+            <h3 data-i18n="card2-h3">सामाजिक एकता</h3>
+            <p  data-i18n="card2-p">समाज के सभी वर्गों को एक मंच पर लाने का प्रयास।</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fas fa-star"></i></div>
+            <h3 data-i18n="card3-h3">विशिष्ट अतिथि</h3>
+            <p  data-i18n="card3-p">राजनीतिक व सामाजिक क्षेत्र के विशिष्ट अतिथियों की उपस्थिति।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORGANIZERS -->
+  <section class="organizers" id="organizers">
+    <div class="container">
+      <h2 data-i18n="team-h2">आयोजक समिति</h2>
+      <p class="section-sub" data-i18n="team-sub">पाया २ब ग्रुप नागदा</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="assets/images/person1.jpg" alt="YUNUS SHAIKH"
+               onerror="this.src='https://ui-avatars.com/api/?name=Aisha+Khan&background=6C2935&color=fff&size=200'"/>
+          <h4>YUNUS SHAIKH</h4>
+          <span data-i18n="team1-role">Event Director</span>
+        </div>
+        <div class="team-card">
+          <img src="assets/images/person2.jpg" alt="USMAN GANI"
+               onerror="this.src='https://ui-avatars.com/api/?name=Raj+Mehta&background=6C2935&color=fff&size=200'"/>
+          <h4>USMAN GANI</h4>
+          <span data-i18n="team2-role">Co-Founder</span>
+        </div>
+        <div class="team-card">
+          <img src="assets/images/person3.jpg" alt="RAHOOP SHAIKH"
+               onerror="this.src='https://ui-avatars.com/api/?name=Sara+Kapoor&background=6C2935&color=fff&size=200'"/>
+          <h4>RAHOOP SHAIKH</h4>
+          <span data-i18n="team3-role">Marketing Head</span>
+        </div>
+        <div class="team-card">
+          <img src="assets/images/person4.jpg" alt="ISMAIL SHAIKH"
+               onerror="this.src='https://ui-avatars.com/api/?name=Vikram+Singh&background=6C2935&color=fff&size=200'"/>
+          <h4>ISMAIL SHAIKH</h4>
+          <span data-i18n="team4-role">Operations Manager</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHIEF GUESTS -->
+  <section class="organizers" id="guests">
+    <div class="container">
+      <h2 data-i18n="org-h2">मुख्य अतिथि</h2>
+      <p class="section-sub" data-i18n="org-sub">विशेष रूप से आमंत्रित गणमान्य व्यक्ति</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          <h4>जीतू पटवारी</h4>
+          <span data-i18n="guest1-role">अध्यक्ष, म.प्र. कांग्रेस कमेटी</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          <h4>सज्जन सिंह वर्मा</h4>
+          <span data-i18n="guest2-role">वरिष्ठ नेता</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          <h4>श्रीमंत गायत्री राजे पवार</h4>
+          <span data-i18n="guest3-role">विधायक, देवास</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-mosque"></i></div>
+          <h4>इरफान अहमद अशरफी</h4>
+          <span data-i18n="guest4-role">शहर काजी, देवास सीनियर</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-mosque"></i></div>
+          <h4>मो. सत्तामुद्दीन बरकाती</h4>
+          <span data-i18n="guest5-role">मुख्य शहर काजी, इंदौर</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          <h4>धर्मेन्द्रसिंह चौहान</h4>
+          <span data-i18n="guest6-role">अध्यक्ष, म.प्र. किसान कांग्रेस</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          <h4>विपीन वानखेड़े</h4>
+          <span data-i18n="guest7-role">जिला कांग्रेस अध्यक्ष, इंदौर</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+          <h4>विश्वजीत सिंह पौहान</h4>
+          <span data-i18n="guest8-role">जिला किसान कांग्रेस अध्यक्ष</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATRONS -->
+  <section class="patrons-section" id="patrons">
+    <div class="container">
+      <h2 data-i18n="patron-h2">सरपरस्त</h2>
+      <p class="section-sub" data-i18n="patron-sub">इस आयोजन के संरक्षक</p>
+      <div class="patrons-grid">
+        <div class="patron-card"><i class="fas fa-star"></i> <span>हाजी इशाक मास्टर</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>हाजी सरदार सेठ</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>सरदार हाजी बाबू पटेल</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>हाजी इकरार सेठ</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>हाजी हबीब नसिर</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>हाजी युसुफ वजीर</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>हाजी अहमद साहब</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>उस्मान सर हाजी रसुल सेठ</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>डॉ. सलीम कुरैशी</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>अमान सर</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>मनीष चौधरी</span></div>
+        <div class="patron-card"><i class="fas fa-star"></i> <span>आयिद खान</span></div>
+      </div>
+
+      <h3 class="supporters-title" data-i18n="supporters-h3">सहयोगी — नागदा, देवास व आसपास के क्षेत्र</h3>
+      <div class="supporters-list">
+        <span>मुस्ताक डैडी गोया</span><span>रऊफ सेठ नागदा</span><span>उस्मान गनी</span>
+        <span>इस्माईल शेख</span><span>इमरान शिकारी</span><span>अश्फाक पटेल काजी पलासिया</span>
+        <span>हाजी अजिम कुरैशी</span><span>अंसार अली कालोनाई</span><span>फरीद खान संजय नगर</span>
+        <span>जाकिर पहलवान</span><span>भूरु पटेल पहलवान</span><span>शमीम भाईजान शेख ब्रदर्स इंदौर</span>
+        <span>फिजाउद्दीन सेठ</span><span>हाजी रऊफ सेठ</span><span>हाजी पप्पू अली भचान रसुलपुर</span>
+        <span>शरीफ शेख</span><span>वहाब भाई</span><span>नासिर बाबा रसुलपुर</span>
+        <span>मिर्जा असलम बेग रसुलपुर</span><span>हाजी चाँद इस्माइल सेठ</span><span>बच्चू यादव बोरा मांगलिया</span>
+        <span>हाजी गब्बर कात्री सांवेर</span><span>अरबाज मंसूरी पालनगर</span><span>मोहम्मद शेख खजराना</span>
+        <span>हाजी रिजवान कुरैशी देवास</span><span>जाईद नाना कालू मार्ग सारंगपुर</span><span>बिटू भाई टैंकर रसुलपुर</span>
+        <span>हाजी इस्माईल टाइपिंग नागदा</span><span>डॉ. सेफ सांवेर</span><span>अकरम फेज देवास</span>
+        <span>सलमान कुरैशी पठान कुआं</span><span>हाजी हारून पटेल नागदा</span><span>हाजी मो. हुसैन बांगरदा</span>
+        <span>इमरान शेख (एस.एस. ट्रांसपोर्ट)</span><span>शकील खान रेहान कंस्ट्रक्शन</span><span>हात लियाकत सांवेर</span>
+        <span>अमजद पटेल</span><span>बच्चन शेख नागदा</span><span>काल भाई गोतमपुरा</span>
+        <span>शाहिल मंसूरी पालनगर</span><span>हाजी अ.गनी पटवारी भौरासा</span><span>आशिक कुरैशी जवाई पठान कुआं</span>
+        <span>अमीन कुरैशी कंजर मोहल्ला</span><span>हरिश गजधर देवास</span><span>हाजी पपलू शेठ खरंगपुर</span>
+        <span>इलियास अल्टर सारंगपुर</span><span>रज्जाक पह. रसुलपुर</span><span>मोईन भाई देपालपुर</span>
+        <span>अ. सलाम गुड्डू पटेल नागदा</span><span>हाजी सलिम शेख</span><span>हाजी शेर अर्जी रसुलपुर</span>
+        <span>असलम ठेकेदार</span><span>जामिर अली रसुलपुर</span><span>रईस कमान रसुलपुर</span>
+        <span>नाना सारंगपुर</span><span>अतीक सरपंच कमलापुर</span><span>मोहम्मद अली सदर रसुलपुर</span>
+        <span>रियाज भाई ठेकेदार</span><span>लियाकत सरपंच कदवा</span><span>परवेज लाला जे.सी.बी. इटावा</span>
+        <span>हाजी अली हुसैन कदवा</span><span>शब्बीर हुसैन ठेकेदार</span><span>मुस्तकीम पटेल</span>
+        <span>हाजी मुत्रा सेठ</span><span>नौशाद ठेकेदार</span><span>समीर ठेकेदार</span>
+        <span>सलीम नेशनल देवास</span><span>हाफिज सईद पटेल</span><span>तबरेज रहमान बैंग फेब्रिकेशन भौरासा</span>
+        <span>डॉ. अल्ताफ कुरेशी नागदा</span><span>अकील हुसैन</span><span>बाली घोसी पार्षद</span>
+        <span>मुकेश मोदी पार्षद प्रतिनिधि नागदा</span><span>जुवेर लाला प्रदेश मंत्री</span><span>जलाल पटेल</span>
+        <span>निजाम भाई भाजपा नेता नागदा</span><span>अनवर दादा</span><span>इरफान अली बावा पार्षद रसुलपुर देवास</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGISTER -->
+  <section class="register" id="register">
+    <div class="container">
+      <h2 data-i18n="reg-h2">पंजीकरण करें</h2>
+      <p class="section-sub" data-i18n="reg-sub">निकाह सम्मेलन में भाग लेने के लिए पंजीकरण करें</p>
+      <form class="reg-form" id="registerForm">
+        <input type="text"  name="name"  data-i18n="reg-name"  placeholder="आपका नाम"    required />
+        <input type="email" name="email" data-i18n="reg-email" placeholder="आपका ईमेल"   required />
+        <input type="tel"   name="phone" data-i18n="reg-phone" placeholder="फ़ोन नंबर" />
+        <button type="submit" class="btn btn-primary" data-i18n="reg-btn">पंजीकरण जमा करें</button>
+      </form>
+      <p class="form-msg" id="formMsg"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4 data-i18n="footer-quick">त्वरित लिंक</h4>
+        <ul>
+          <li><a href="#home"    data-i18n="nav-home">होम</a></li>
+          <li><a href="#about"   data-i18n="nav-about">परिचय</a></li>
+          <li><a href="#guests"  data-i18n="nav-speakers">अतिथि</a></li>
+          <li><a href="#contact" data-i18n="nav-contact">संपर्क</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer-contact">संपर्क करें</h4>
+        <p><i class="fas fa-map-marker-alt"></i> बाबा की बावड़ी, रसुलपुर रोड, नागदा, देवास</p>
+        <p><i class="fas fa-calendar-alt"></i> २६ अप्रैल २०२६, रविवार</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer-follow">हमें फॉलो करें</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p><span data-i18n="footer-copy">© २०२६ सामुहिक निकाह सम्मेलन नागदा | सर्वाधिकार सुरक्षित |</span>
+      <a href="#" data-i18n="footer-privacy">गोपनीयता नीति</a> | <a href="#" data-i18n="footer-terms">नियम और शर्तें</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

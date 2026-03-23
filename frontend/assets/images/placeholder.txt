@@ -1,0 +1,6 @@
+Add your images here:
+- hero-bg.jpg   (hero section background)
+- person1.jpg   (YUNUS SHAIKH)
+- person2.jpg   (USMAN GANI)
+- person3.jpg   (RAHOOP SHAIKH)
+- person4.jpg   (ISMAIL SHAIKH)
